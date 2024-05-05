@@ -6,14 +6,14 @@
     "architecture": {
         "64bit": {
             "url": "https://open.u-tools.cn/download/uTools-5.0.0.exe#/dl.7z",
-            "hash": "sha512:D93B5F16D440F77186C312DE4BD231F43F3E68B5DCCB42380B1CB23DC6800628DD95A005CBE54F4FBE0A755797AFDD81C654DB8B6B73EAC4EF5C58C83A76918F",
+            "hash": "sha512:d93b5f16d440f77186c312de4bd231f43f3e68b5dccb42380b1cb23dc6800628dd95a005cbe54f4fbe0a755797afdd81c654db8b6b73eac4ef5c58c83a76918f",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
             }
         },
         "32bit": {
             "url": "https://open.u-tools.cn/download/uTools-5.0.0-ia32.exe#/dl.7z",
-            "hash": "sha512:ADF8063C04BEE176690910C434F6204ED8C36E449D970BBD6F37AE8761BA07D8749D5DC0A26A46C81AA57CF863CCCE31862A6A92681CBA8D51727CF48A0D7EFC",
+            "hash": "sha512:adf8063c04bee176690910c434f6204ed8c36e449d970bbd6f37ae8761ba07d8749d5dc0a26a46c81aa57cf863ccce31862a6a92681cba8d51727cf48a0d7efc",
             "installer": {
                 "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
             }
